@@ -7,19 +7,52 @@ Each script is independent and intended to perform specific tasks. You can choos
 
 ## Table of Contents
 - [Network Scanner Script](#network-scanner)
+- [Local Backup Script](#local-backup-script)
 
 # Network Scanner Script
 
-### Overview
+##Overview
 
+This Python script scans a local network to identify active devices and checks for open ports on each detected device. It uses multithreading to speed up the scanning process and is compatible with multiple operating systems.
 
-### Features
+##Features
 
+    Automatically detects the local network subnet.
+    Scans the network for active devices.
+    Identifies open ports on discovered devices.
+    Uses multithreading for faster scanning.
+    Compatible with Windows and Linux/macOS.
 
-### Requirements
+Requirements
 
+    Python 3.x
+    Required modules (pre-installed in most Python versions):
+        socket – for network communication
+        subprocess – for executing ping commands
+        ipaddress – for handling subnet calculations
+        platform – for OS detection
+        concurrent.futures.ThreadPoolExecutor – for multithreading
 
-### Usage Instructions
+Usage Instructions
+
+    Open a terminal or command prompt.
+    Run the script:
+
+    python network_scanner.py
+
+    The script will:
+        Detect the local subnet.
+        Ping all IPs in the subnet to find active devices.
+        Scan common ports (22, 80, 443, 3389, 8080) on each active device.
+        Display a list of discovered devices and their open ports.
+
+Example Output
+
+Scanning network: 192.168.1.0/24 ...
+
+Devices Found:
+IP: 192.168.1.10, Open Ports: [22, 80]
+IP: 192.168.1.15, Open Ports: [443, 3389]
 
 # Local Backup Script
 
