@@ -1,5 +1,4 @@
 # Python-Script-Collection
-# Overview
 
 This collection includes a variety of Python scripts for different use cases.
 
