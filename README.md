@@ -29,8 +29,8 @@ This Python script creates compressed backups of a specified folder and manages 
 
 # Features
 
-    Automatically creates ZIP archives of a specified folder.
-    Uses timestamps in the format YYYY_MM_DD_HHMMSS for organized backups.
+    Automatically creates .zip archives of a specified folder.
+    Uses timestamps in the format YYYY_MM_DD for organized backups.
     Deletes backups older than a defined number of days (MAX_BACKUP_LIFE).
     Limits the number of stored backups to the latest (MAX_BACKUP_NUMBER).
     Fully configurable via command-line arguments.
