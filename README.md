@@ -15,7 +15,7 @@ Each script is independent and intended to perform specific tasks. You can choos
 
 This Python script scans a local network to identify active devices and checks for open ports on each detected device. It uses multithreading to speed up the scanning process and is compatible with multiple operating systems.
 
-##Features
+#Features
 
     Automatically detects the local network subnet.
     Scans the network for active devices.
@@ -23,7 +23,7 @@ This Python script scans a local network to identify active devices and checks f
     Uses multithreading for faster scanning.
     Compatible with Windows and Linux/macOS.
 
-Requirements
+#Requirements
 
     Python 3.x
     Required modules (pre-installed in most Python versions):
@@ -33,7 +33,7 @@ Requirements
         platform – for OS detection
         concurrent.futures.ThreadPoolExecutor – for multithreading
 
-Usage Instructions
+#Usage Instructions
 
     Open a terminal or command prompt.
     Run the script:
