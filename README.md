@@ -46,13 +46,13 @@ Usage Instructions
         Scan common ports (22, 80, 443, 3389, 8080) on each active device.
         Display a list of discovered devices and their open ports.
 
-Example Output
+    Example Output
 
-Scanning network: 192.168.1.0/24 ...
-
-Devices Found:
-IP: 192.168.1.10, Open Ports: [22, 80]
-IP: 192.168.1.15, Open Ports: [443, 3389]
+    Scanning network: 192.168.1.0/24 ...
+    
+    Devices Found:
+    IP: 192.168.1.10, Open Ports: [22, 80]
+    IP: 192.168.1.15, Open Ports: [443, 3389]
 
 # Local Backup Script
 
@@ -84,17 +84,10 @@ This Python script creates compressed backups of a specified folder and manages 
 
     python backup_script.py <source_folder> <backup_folder>
 
-Example:
+    Example Output
 
     python backup_script.py "F:/Python/Scripts" "F:/Python/backup"
 
-    The script will:
-        Clean up old backups based on age and count settings.
-        Create a new compressed backup in the specified backup folder.
-        Print the backup location.
-
-Example Output
-
-F:/Python/backup/backup_2025_02_11_153045.zip  
-Backup created: F:/Python/backup/backup_2025_02_11_153045.zip  
-Backup stored at: F:/Python/backup/backup_2025_02_11_153045.zip 
+    F:/Python/backup/backup_2025_02_11_153045.zip  
+    Backup created: F:/Python/backup/backup_2025_02_11_153045.zip  
+    Backup stored at: F:/Python/backup/backup_2025_02_11_153045.zip 
